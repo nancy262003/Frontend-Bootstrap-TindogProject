@@ -1,0 +1,175 @@
+#title{
+    background-color: #ff4c68;
+    color:white;
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 9%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    color:white;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0  0 4.5rem;
+}
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+/* heading */
+.biggest-heading{
+    font-family:'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+ .pricing-heading{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight:900
+ }
+
+ /* sections */
+.colored-section{
+    background-color: #ef8172;
+}
+.white-section{
+    background-color: #fff;
+}
+/* donwload-button title */
+.download-button{
+    margin: 5% 3% 5% 0 ;
+}
+
+/* title images */
+.images-tittle{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    /* z-index: -1; */
+
+
+}
+ .row-icons{
+    padding:5%;
+ } 
+
+/* features section*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+
+}
+.feature-text{
+    font-weight: bold;
+}
+h3{
+    font-weight: bolder;
+}
+/* styling icons */
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+
+p{
+    color: grey;
+}
+/* testimonial */
+
+#testimonials{
+    
+    color: white;
+}
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+/* editing press section */
+#press{
+    padding: 2%
+}
+
+.press-image{
+    width:15%;
+    margin: 20px 20px 15px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.car-button{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;;
+}
+ /* styling pricing section */
+ #pricing{
+    padding:100px;
+ }
+ .pricing-card{
+    padding:2% 5%;
+ }
+ .price-text{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bolder;
+ }
+/* designing cta section */
+#cta{
+    background-color:#ff4c68;
+    padding: 3%;
+    color: #fff;
+   
+}
+.footer-button{
+    margin: 2%;
+    font-weight: bold;
+}
+ /* designing footer */
+#footer{
+    padding: 3%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+ @media(max-width:993.3px){
+    .images-tittle{
+        position: static;
+        transform: rotate(0);
+        width: 30%;
+    }
+    #title{
+        text-align:  center;
+    }
+    h1{
+        font-size: 32px;
+    font-style: oblique;
+    }
+ }
